@@ -673,16 +673,19 @@ nav.navbar .navbar-collapse {
 }
 
 .carousel-item img {
-    animation: move 7s ease infinite;
+    animation: move 10s ease infinite;
     transform-origin: center center;
 }
 
 @-webkit-keyframes move {
-    from {
+    0% {
         transform: scale(1);
     }
-    to {
+    50% {
         transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
     }
 }
 
